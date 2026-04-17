@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הכנה לשאלון בעברית (014271)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fadeIn {
+            animation: fadeIn 0.4s ease-out forwards;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .page-content {
+            display: none;
+        }
+        .page-content.active {
+            display: block;
+        }
+        .answer {
+            display: none;
+        }
+        .answers-visible .answer {
+            display: inline-block; /* or block depending on context, handled by classes */
+        }
+        /* Specific overrides for flex/block answers when visible */
+        .answers-visible span.answer { display: inline-block; }
+        .answers-visible div.answer { display: block; }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50 font-sans text-right pb-10">
+
+    <!-- Header -->
+    <header class="bg-indigo-600 text-white shadow-md sticky top-0 z-10">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <h1 class="text-2xl font-bold">הכנה לשאלון בעברית (014271)</h1>
+            
+            <!-- Desktop Navigation -->
+            <nav class="hidden lg:flex gap-1 xl:gap-2 flex-wrap justify-center" id="desktop-nav">
+                <!-- Buttons injected by JS -->
+            </nav>
+        </div>
+
+        <!-- Mobile Navigation Scrollable -->
+        <div class="lg:hidden overflow-x-auto pb-3 pt-1 px-4 flex gap-2 hide-scrollbar" id="mobile-nav">
+            <!-- Buttons injected by JS -->
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="max-w-4xl mx-auto px-4 py-8">
+        <div class="bg-white/50 backdrop-blur-sm rounded-2xl shadow-sm border border-gray-100 p-5 sm:p-10 min-h-[60vh]" id="content-container">
+            
+            <!-- Page 0: Intro -->
+            <div class="page-content animate-fadeIn" id="page-0">
+                <div class="space-y-5">
+                    <div class="flex items-center justify-between gap-4 mb-6">
+                        <h2 class="text-2xl md:text-3xl font-bold text-indigo-800 relative z-10 max-w-[75%]">
+                            ברוכים הבאים לפרק הלשון – המדריך המלא להצלחה! 🎯
+                        </h2>
+                        <img src="https://www.dropbox.com/scl/fi/n99ekuziwuwo0gw6ayyz4/1c81ae1c-2456-410c-999a-36e725a9728b.png?rlkey=63ta8ngn55sdabt6mfdbyt10z&st=70tr43s5&raw=1" alt="לוגו מקיף כאוכב" class="h-20 md:h-28 w-auto object-contain shrink-0">
+                    </div>
+                    
+                    <div class="bg-indigo-50 border border-indigo-200 text-indigo-900 px-5 py-3 rounded-xl inline-block mb-2 shadow-sm relative z-10">
+                        <p class="font-bold text-lg">הכינה המורה: חנאן חאג' מוחמד</p>
+                        <p class="font-medium mt-1 text-indigo-700">בית ספר: מקיף כאוכב</p>
+                    </div>
+
+                    <p class="text-xl font-bold text-gray-800">תלמידים יקרים,</p>
+                    <p class="text-lg leading-relaxed text-gray-700">
+                        הגעתם לפרק השלישי בבחינת הבגרות – <strong>פרק ידע לשון</strong> (שאלון 014271 החדש).
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700">
+                        עבור תלמידים רבים, פרק הלשון נראה לעיתים כמו חידה, אבל האמת היא שמדובר בחלק הכי לוגי בבחינה! ברגע שמבינים את החוקים ומכירים את ה"טריקים", אפשר לאסוף כאן את כל <strong>15 הנקודות</strong> בקלות. יחידת לימוד זו נכתבה במיוחד עבורכם, בדיוק לפי המיקוד החדש של משרד החינוך, כדי לתת לכם את כל הכלים והסודות לפיצוח הפרק.
+                    </p>
+
+                    <div class="mt-8">
+                        <h3 class="text-xl font-bold text-indigo-700 mb-4 flex items-center gap-2">
+                            <span class="text-2xl">📖</span> מה מחכה לכם ביחידת לימוד זו?
+                        </h3>
+                        <p class="text-lg text-gray-700 mb-3">יחידה זו בנויה בצורה הדרגתית, ברורה וממוקדת:</p>
+                        <ol class="list-decimal list-inside space-y-3 text-gray-700 bg-indigo-50 p-6 rounded-xl border border-indigo-100 shadow-sm">
+                            <li><strong>"טיפים מנצחים" לכל נושא:</strong> עזבו את השינון העיוור. אספתי עבורכם את כל קיצורי הדרך והסימנים המזהים (איך לזהות נו"ן שנפלה, איך למצוא את האות המסתתרת בשורש, ואיך לא ליפול בפח של סיומות ברבים).</li>
+                            <li><strong>תורת הפועל ושם העצם:</strong> הסברים פשוטים וברורים על הגזרות השונות הנדרשות במיקוד, ועל משמעויות של משקלים.</li>
+                            <li><strong>תחביר ותקינות לשון:</strong> כללי ברזל לניתוח משפטים, שימוש נכון בה"א הידיעה (בסמיכות), התאמה בין זכר ונקבה במשפט, ומדריך למילות הקישור.</li>
+                            <li><strong>תרגול במבנה בגרויות:</strong> לאחר ההסברים, תמצאו שאלות תרגול שנוסחו בדיוק בסגנון שתפגשו בבחינה האמיתית.</li>
+                        </ol>
+                    </div>
+
+                    <div class="mt-6 bg-yellow-50 border-r-4 border-yellow-400 p-5 rounded-lg">
+                        <p class="text-lg text-gray-800 leading-relaxed">
+                            <strong>זכרו:</strong> שפה לומדים דרך הרגליים (או במקרה הזה – דרך העיפרון). אל תסתפקו בקריאת ההסברים, תרגלו כמה שיותר!<br/>
+                            <strong>בהצלחה רבה! קדימה, מתחילים! 🚀</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 1: Guidelines -->
+            <div class="page-content animate-fadeIn" id="page-1">
+                <div class="space-y-6">
+                    <h2 class="text-2xl font-bold text-red-800 flex items-center gap-2">
+                        <span class="text-3xl">⚠️</span> שימו לב – הנחיה קריטית למבנה הבחינה!
+                    </h2>
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-red-100">
+                        <p class="text-lg leading-relaxed text-gray-700 mb-2">
+                            בבחינת הבגרות עצמה, <strong>לא תצטרכו לפתור את כל השאלות בפרק!</strong> משרד החינוך נותן לכם זכות בחירה, ועליכם לענות על <strong>שאלה אחת בלבד</strong> מתוך שתיים (שאלה 10 או שאלה 11).
+                        </p>
+                        <p class="text-lg text-gray-700 font-medium">
+                            חשוב שתכירו את ההבדלים כדי שביום הבחינה תדעו במה לבחור:
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+                        <div class="bg-blue-50 p-6 rounded-xl border-t-4 border-t-blue-500 shadow-sm">
+                            <h3 class="text-xl font-bold text-blue-800 mb-2">אפשרות ראשונה – שאלה 10</h3>
+                            <p class="font-bold text-blue-600 mb-3">(הפועל, שם העצם ומילות יחס)</p>
+                            <p class="text-gray-700 leading-relaxed">
+                                שאלה זו מתאימה למי שאוהב לנתח מילים! היא בודקת את היכולת שלכם לזהות שורשים ובניינים (גם בגזרות מיוחדות), להבין משקלים של שמות עצם, ולהתאים נכון מילות יחס לפעלים (למשל: "להשפיע על...", "ליהנות מ...").
+                            </p>
+                        </div>
+
+                        <div class="bg-green-50 p-6 rounded-xl border-t-4 border-t-green-500 shadow-sm">
+                            <h3 class="text-xl font-bold text-green-800 mb-2">אפשרות שנייה – שאלה 11</h3>
+                            <p class="font-bold text-green-600 mb-3">(תחביר, שחבור ותקינות לשון)</p>
+                            <p class="text-gray-700 leading-relaxed">
+                                שאלה זו מתאימה למי שיש לו ראייה רחבה של משפטים! היא בודקת את היכולת שלכם לזהות סוגי משפטים (פשוט, מורכב, מחובר) ותפקידים תחביריים (נושא, נשוא, לוואי, תיאור), להמיר משפט פעיל לסביל, ולשבץ מילות קישור נכונות (בגלל, למרות ש..., כדי).
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 bg-white p-6 rounded-xl border border-gray-200 flex items-start gap-4 shadow-sm">
+                        <i data-lucide="lightbulb" class="w-8 h-8 text-amber-500 flex-shrink-0 mt-1"></i>
+                        <div>
+                            <h4 class="text-xl font-bold text-gray-800 mb-2">ההמלצה שלי:</h4>
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                למדו היטב את <strong>שני</strong> הנושאים ביחידה זו! כך, כשתקבלו את טופס הבחינה, תוכלו להציץ בשתי השאלות ולבחור את זו שקלה לכם יותר באותו הרגע.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 2: Verbs -->
+            <div class="page-content animate-fadeIn" id="page-2">
+                <div class="space-y-6">
+                    <h2 class="text-2xl font-bold text-blue-800 flex items-center gap-2">
+                        <span class="text-3xl">📘</span> חלק א': הפועל - טיפים מנצחים לזיהוי גזרות (ללא שלמים)
+                    </h2>
+                    <p class="text-lg text-gray-700">
+                        בפרק הפועל, הסוד הוא <strong>לא לנחש</strong>, אלא לעבוד כמו בלשים: לחפש את אותיות השורש המסתתרות או את התנועות המיוחדות. להלן הגזרות הנדרשות במיקוד:
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                            <h3 class="text-xl font-bold text-blue-700 mb-3">1. גזרת חפ"ן (חסרי פ"א הפועל נו"ן)</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li><strong>איך מזהים?</strong> האות הראשונה של השורש היא <strong>נ'</strong>, והיא "נופלת" (חסרה) בחלק מהבניינים. הסימן הבולט ביותר לזיהוי הוא <strong>דגש חזק</strong> באות השנייה של השורש (שמפצה על ה-נ' שנפלה).</li>
+                                <li><strong>באיזה בניינים הגזרה נוטה?</strong> בעיקר בבניינים הדגשים: קל (בעתיד וציווי), נפעל (בעבר ובינוני), הפעיל, הופעל. בפיעל, פועל והתפעל ה-נ' נשארת (הגזרה שלמה).</li>
+                            </ul>
+                            <div class="mt-4 bg-amber-50 p-4 rounded-lg border-r-4 border-amber-400 flex gap-3">
+                                <i data-lucide="lightbulb" class="w-6 h-6 text-amber-500 flex-shrink-0"></i>
+                                <p><strong>טיפ זהב:</strong> ראיתם פועל בבניין <strong>הפעיל</strong> או <strong>הופעל</strong> עם דגש באות שאחרי מוספית הבניין? רוב הסיכויים שזו נ' שנפלה!</p>
+                            </div>
+                            <div class="mt-4">
+                                <strong class="text-gray-800">דוגמאות:</strong>
+                                <ul class="list-disc list-inside mt-2 text-gray-700">
+                                    <li>הִפִּיל (שורש נ.פ.ל, בניין הפעיל)</li>
+                                    <li>יִסַּע (שורש נ.ס.ע, בניין קל)</li>
+                                    <li>הֻכַּר (שורש נ.כ.ר, בניין הופעל)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                            <h3 class="text-xl font-bold text-blue-700 mb-3">2. גזרת נפ"יו (נחי פ"א הפועל יו"ד/וי"ו)</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li><strong>איך מזהים?</strong> האות הראשונה של השורש היא <strong>י'</strong> (או ו' היסטורית).</li>
+                                <li><strong>באיזה בניינים הגזרה נוטה?</strong> קל, נפעל, הפעיל, הופעל.</li>
+                            </ul>
+                            <div class="mt-4 bg-amber-50 p-4 rounded-lg border-r-4 border-amber-400 flex gap-3">
+                                <i data-lucide="lightbulb" class="w-6 h-6 text-amber-500 flex-shrink-0"></i>
+                                <p><strong>טיפ זהב:</strong> חפשו את ה"וואו"! בבניין <strong>הפעיל</strong> נראה <strong>חולָם</strong> (הוֹ... - הוֹרִיד, הוֹבִיל). בבניין <strong>הופעל</strong> נראה <strong>שורוק</strong> (הוּ... - הוּרַד, הוּבַל). בבניין <strong>נפעל</strong> נראה <strong>חולָם</strong> בעבר ובינוני (נוֹלַד).</p>
+                            </div>
+                            <div class="mt-4">
+                                <strong class="text-gray-800">דוגמאות:</strong>
+                                <ul class="list-disc list-inside mt-2 text-gray-700">
+                                    <li>הוֹרִיד (שורש י.ר.ד, בניין הפעיל)</li>
+                                    <li>נוֹסַד (שורש י.ס.ד, בניין נפעל)</li>
+                                    <li>הוּשַׁב (שורש י.ש.ב, בניין הופעל)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                            <h3 class="text-xl font-bold text-blue-700 mb-3">3. גזרת נע"ו/י (נחי ע"י הפועל וי"ו/יו"ד)</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li><strong>איך מזהים?</strong> האות האמצעית של השורש היא <strong>ו'</strong> או <strong>י'</strong>. אלו הפעלים ה"קצרים" בעבר.</li>
+                                <li><strong>באיזה בניינים הגזרה נוטה?</strong> קל, הפעיל, הופעל, נפעל. (בפיעל, פועל והתפעל מקבלים צורות מיוחדות כמו קומם, סובב).</li>
+                            </ul>
+                            <div class="mt-4 bg-amber-50 p-4 rounded-lg border-r-4 border-amber-400 flex gap-3">
+                                <i data-lucide="lightbulb" class="w-6 h-6 text-amber-500 flex-shrink-0"></i>
+                                <p><strong>טיפ זהב:</strong> העבירו את הפועל לזמן <strong>עבר נסתר (הוא אתמול)</strong>. אם נשארתם עם שתי אותיות בלבד, זו גזרת נע"ו/י!</p>
+                            </div>
+                            <div class="mt-4">
+                                <strong class="text-gray-800">דוגמאות:</strong>
+                                <ul class="list-disc list-inside mt-2 text-gray-700">
+                                    <li>הוא אתמול <strong>קָם</strong> -&gt; שורש ק.ו.מ (בניין קל)</li>
+                                    <li>הוא אתמול <strong>הֵכִין</strong> -&gt; שורש כ.ו.נ (בניין הפעיל - שימו לב ל-י' שמופיעה)</li>
+                                    <li>הוא אתמול <strong>הוּקַם</strong> -&gt; שורש ק.ו.מ (בניין הופעל)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                            <h3 class="text-xl font-bold text-blue-700 mb-3">4. גזרת נל"י/ה (נחי ל"מ הפועל יו"ד/הֵ"א)</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li><strong>איך מזהים?</strong> האות האחרונה של השורש היא <strong>ה'</strong> (שבמקור הייתה י').</li>
+                                <li><strong>באיזה בניינים הגזרה נוטה?</strong> בכל הבניינים!</li>
+                            </ul>
+                            <div class="mt-4 bg-amber-50 p-4 rounded-lg border-r-4 border-amber-400 flex gap-3">
+                                <i data-lucide="lightbulb" class="w-6 h-6 text-amber-500 flex-shrink-0"></i>
+                                <p><strong>טיפ זהב:</strong> אם הפועל בזמן עבר, גוף נסתר מסתיים ב-<strong>ה'</strong> (קָנָה, בָּנָה, גִּלָּה, הִרְאָה) - זה שורש נל"י/ה. שימו לב: בגוף מדבר (אני) ה-ה' הופכת ל-י' (קניתי, בניתי) ובגוף נסתרת (היא) ה-ה' הופכת ל-ת' (קנתה, בנתה).</p>
+                            </div>
+                            <div class="mt-4">
+                                <strong class="text-gray-800">דוגמאות:</strong>
+                                <ul class="list-disc list-inside mt-2 text-gray-700">
+                                    <li>תִּבְנֶה (שורש ב.נ.ה, בניין קל)</li>
+                                    <li>מְצַפִּים (שורש צ.פ.ה, בניין פיעל)</li>
+                                    <li>הִתְגַּלְּתָה (שורש ג.ל.ה, בניין התפעל)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 3: Nouns -->
+            <div class="page-content animate-fadeIn" id="page-3">
+                <div class="space-y-6">
+                    <h2 class="text-2xl font-bold text-red-800 flex items-center gap-2">
+                        <span class="text-3xl">📕</span> חלק ב': שם העצם - משקלים וצורנים
+                    </h2>
+                    <p class="text-lg text-gray-700">
+                        על פי המיקוד, הבחינה דורשת זיהוי משמעויות של משקלים, זיהוי שורש משותף למילים במשקלים שונים, ומשמעות צורנים סופיים. (שאלת "יוצא דופן" היא קלאסית כאן).
+                    </p>
+
+                    <div class="bg-red-50 p-6 rounded-xl border border-red-100">
+                        <h3 class="text-xl font-bold text-red-700 mb-4">טיפים לפתרון שאלת השורש יוצא הדופן:</h3>
+                        <ol class="list-decimal list-inside space-y-3 text-gray-800 font-medium">
+                            <li><strong>קילוף המילה:</strong> הורידו את אותיות מוספיות המשקל (מ, ת, נ, ה, י, א, ו) ואת אותיות הריבוי (ים, ות).</li>
+                            <li><strong>מציאת השורש:</strong> מה נשאר? חפשו קשר הגיוני למשפחת מילים.</li>
+                            <li><strong>זהירות מגזרות:</strong> זכרו את ה-נ' שנופלת, ואת ה-ו/י שאוהבות להסתתר.</li>
+                        </ol>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">משמעויות מרכזיות שחובה להכיר:</h3>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex gap-2 items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5"></i> <span><strong>בעלי מקצוע:</strong> לרוב במשקל קַטָּל (צַיָּר, נַגָּר, קַבְּלָן - צורן סופי ־ָן).</span></li>
+                            <li class="flex gap-2 items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5"></i> <span><strong>כלים ומכשירים:</strong> לרוב מתחילים ב-מ' (מַקְטֵל - מַזְלֵג, מַחְשֵׁב; מַקְטֵלָה - מַצְלֵמָה).</span></li>
+                            <li class="flex gap-2 items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5"></i> <span><strong>מקומות:</strong> לרוב מתחילים ב-מ' ומסתיימים ב-ה' (מִסְפָּרָה, מִרְפָּאָה, מִסְעָדָה).</span></li>
+                            <li class="flex gap-2 items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5"></i> <span><strong>מחלות / מומים:</strong> משקל קַטֶּלֶת (צַהֶבֶת, אַדֶּמֶת) או קִטֵּל (עִוֵּר, חֵרֵשׁ).</span></li>
+                            <li class="flex gap-2 items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5"></i> <span><strong>צורן סופי ־וֹן:</strong> יכול להביע הקטנה (יַלְדּוֹן, סִפְרוֹן), אוסף (מִלּוֹן), או עיתון הקשור לזמן (יְמָמָה -&gt; יוֹמוֹן).</span></li>
+                            <li class="flex gap-2 items-start"><i data-lucide="chevron-right" class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5"></i> <span><strong>צורן סופי ־וּת:</strong> מביע שם עצם מופשט, מצב או תכונה (יַלְדּוּת, אַחְרָיוּת, חֲבֵרוּת).</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 4: Prepositions -->
+            <div class="page-content animate-fadeIn" id="page-4">
+                <div class="space-y-6">
+                    <h2 class="text-2xl font-bold text-orange-800 flex items-center gap-2">
+                        <span class="text-3xl">📙</span> חלק ה': מילות יחס (מילות יחס מוצרכות)
+                    </h2>
+                    
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-orange-100">
+                        <p class="text-lg text-gray-700 mb-4">
+                            <strong>מה זה אומר?</strong> בעברית, פעלים מסוימים דורשים אחריהם מילת יחס קבועה. אי אפשר לשנות אותה! תלמידים דוברי ערבית נוטים פעמים רבות לתרגם את מילת היחס ישירות מערבית לעברית, וכך נוצרות טעויות.
+                        </p>
+
+                        <div class="bg-orange-50 p-4 rounded-lg mb-6 border border-orange-200">
+                            <h3 class="font-bold text-lg text-orange-800 mb-2">טיפים מנצחים לזיהוי:</h3>
+                            <ol class="list-decimal list-inside space-y-2 text-gray-800">
+                                <li><strong>למדו את "הזוגות הקבועים":</strong> פועל + מילת יחס.</li>
+                                <li>בבחינה (כמו בדוגמה שצילמת), תקבלו משפט עם קו ריק. חפשו את הפועל או שם הפועל שלפני הקו (או קצת לפניו), ושאלו את עצמכם: איזו מילה "משלימה" אותו?</li>
+                            </ol>
+                        </div>
+
+                        <h3 class="font-bold text-xl text-gray-800 mb-4">פעלים נפוצים שכדאי לשנן לבגרות (הפחים המוכרים):</h3>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200">
+                                <span class="font-bold text-orange-700 text-lg">לְהִשְׁתַּתֵּף ב...</span>
+                                <span class="text-sm text-gray-500 block">(ולא: להשתתף עם)</span>
+                            </div>
+                            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200">
+                                <span class="font-bold text-orange-700 text-lg">לְהַשְׁפִּיעַ עַל...</span>
+                                <span class="text-sm text-gray-500 block">(ולא: להשפיע ב)</span>
+                            </div>
+                            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200">
+                                <span class="font-bold text-orange-700 text-lg">לִדְאֹג ל...</span>
+                                <span class="text-sm text-gray-500 block">(ולא: לדאוג על)</span>
+                            </div>
+                            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200">
+                                <span class="font-bold text-orange-700 text-lg">לִפְגֹּעַ ב...</span>
+                                <span class="text-sm text-gray-500 block">(ולא: לפגוע על)</span>
+                            </div>
+                            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200 border-l-4 border-l-orange-400">
+                                <span class="font-bold text-orange-700 text-lg">לֵהָנוֹת מ...</span>
+                                <span class="text-sm text-gray-500 block">(מופיע בבחינה שצירפת!)</span>
+                            </div>
+                            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200 border-l-4 border-l-orange-400">
+                                <span class="font-bold text-orange-700 text-lg">לְהִמָּנַע מ...</span>
+                                <span class="text-sm text-gray-500 block">(מופיע בבחינה שצירפת!)</span>
+                            </div>
+                            <div class="bg-gray-50 p-3 rounded-lg border border-gray-200 sm:col-span-2">
+                                <span class="font-bold text-orange-700 text-lg">לְאַפְשֵׁר ל...</span>
+                                <span class="text-sm text-gray-500 block">(לדוגמה: "מאפשרת <em>ל</em>דיירים...")</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 5: Syntax -->
+            <div class="page-content animate-fadeIn" id="page-5">
+                <div class="space-y-6">
+                    <h2 class="text-2xl font-bold text-green-800 flex items-center gap-2">
+                        <span class="text-3xl">📗</span> חלק ג': תחביר, תקינות לשון והמרת משפטים
+                    </h2>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-green-100">
+                        <h3 class="text-xl font-bold text-green-700 mb-4">1. סוגי משפטים (פשוט, מורכב, מחובר)</h3>
+                        <div class="space-y-4">
+                            <div class="p-4 bg-gray-50 rounded-lg">
+                                <p class="font-bold text-lg mb-1">• משפט פשוט:</p>
+                                <p class="text-gray-700 mb-2">יש בו רק <strong>פועל אחד</strong> (נשוא אחד).</p>
+                                <p class="text-gray-600 italic">דוגמה: התלמידים <strong>למדו</strong> היטב למבחן בלשון.</p>
+                            </div>
+                            <div class="p-4 bg-gray-50 rounded-lg">
+                                <p class="font-bold text-lg mb-1">• משפט מחובר (איחוי):</p>
+                                <p class="text-gray-700 mb-2">מורכב משני משפטים עצמאיים (או יותר) שמחוברים במילות חיבור. לכל משפט יש פועל משלו.</p>
+                                <p class="text-gray-600 text-sm mb-1">מילות זיהוי: ו..., אבל, אך, לכן, לפיכך, אולם.</p>
+                                <p class="text-gray-600 italic">דוגמה: התלמידים <strong>למדו</strong> היטב, <span class="underline decoration-green-400">ולכן</span> הם <strong>הצליחו</strong> בבחינה.</p>
+                            </div>
+                            <div class="p-4 bg-gray-50 rounded-lg">
+                                <p class="font-bold text-lg mb-1">• משפט מורכב:</p>
+                                <p class="text-gray-700 mb-2">משפט עיקרי ומשפט טפל (שלא יכול לעמוד בפני עצמו).</p>
+                                <p class="text-gray-600 text-sm mb-1">מילות זיהוי: ש..., אשר, כי, מפני ש..., למרות ש... (מילות שעבוד).</p>
+                                <p class="text-gray-600 italic">דוגמה: המורה שמחה <span class="underline decoration-green-400">מפני ש</span>התלמידים <strong>הצליחו</strong> בבחינה.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-green-100">
+                        <h3 class="text-xl font-bold text-green-700 mb-4">2. תפקידים תחביריים - מיקוד זיהוי</h3>
+                        <ul class="space-y-3 text-gray-700">
+                            <li><strong>נשוא:</strong> הפועל במשפט. (מה הפעולה?). אם אין פועל (משפט שמני), הנשוא הוא המילה שמחדשת את המידע העיקרי.</li>
+                            <li><strong>נושא:</strong> מי שעושה את הפעולה. (מי/מה + הפועל?).</li>
+                            <li><strong>אוגד:</strong> מופיע במשפטים ללא פועל (משפטים שמניים). בדרך כלל: הוא, היא, הם, הן / היה, יהיה.</li>
+                            <li><strong>מושא:</strong> מקבל הפעולה. משלים את הפועל. עונה על השאלות: את מה? במי? למי? ממי? (מחובר לפועל עם מילת יחס).</li>
+                            <li><strong>תיאור:</strong> מתאר את נסיבות הפעולה של הפועל. עונה על: איפה? (מקום), מתי? (זמן), איך? (אופן), למה? (סיבה/תכלית).</li>
+                            <li>
+                                <strong>לוואי:</strong> מתאר <strong>שם עצם</strong>! עונה על השאלה: איזה? של מי? כמה?
+                                <div class="mt-2 bg-amber-50 p-3 rounded border-r-4 border-amber-400 text-amber-800 text-sm font-medium">
+                                    טיפ קריטי לתלמידים ערבים: לוואי תמיד ידבק לשם עצם, ואילו תיאור ומושא תמיד ידבקו לפועל!
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-green-100">
+                        <h3 class="text-xl font-bold text-green-700 mb-4">3. המרת משפט פעיל לסביל (ולהפך)</h3>
+                        <p class="text-gray-700 mb-4">
+                            כדי להפוך משפט פעיל לסביל, <strong>שומרים על אותו שורש ואותו זמן</strong>, אבל משנים את הבניין. <strong>המושא (את מה) הופך לנושא.</strong>
+                        </p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-700 font-medium bg-gray-50 p-4 rounded-lg inline-block w-full mb-4">
+                            <li>קל -&gt; נפעל (שָבַר -&gt; נִשְבַּר)</li>
+                            <li>פיעל -&gt; פועל (סִיֵּם -&gt; סֻיַּם)</li>
+                            <li>הפעיל -&gt; הופעל (הִזְמִין -&gt; הֻזְמַן)</li>
+                        </ul>
+                        <div class="bg-green-50 p-4 rounded-lg">
+                            <p class="mb-2"><em>דוגמה מהבחינה:</em> "מחירי קרקע גבוהים באזורי הביקוש <strong>מעלים</strong> את מחירי הדירות".</p>
+                            <p><em>הפיכה לסביל:</em> מחירי הדירות <strong>מואלים</strong> (על ידי מחירי קרקע גבוהים באזורי הביקוש).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 6: Correctness -->
+            <div class="page-content animate-fadeIn" id="page-6">
+                <div class="space-y-6">
+                    <h2 class="text-2xl font-bold text-teal-800 flex items-center gap-2">
+                        <span class="text-3xl">📓</span> חלק ו': תקינות לשון (תחביר ומורפולוגיה)
+                    </h2>
+                    <p class="text-lg text-gray-700">
+                        החלק הזה בודק אם התלמידים יודעים לחבר מילים נכון מבחינת זכר/נקבה, יחיד/רבים, וקשרים לוגיים במשפט.
+                    </p>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-teal-100">
+                        <h3 class="text-xl font-bold text-teal-700 mb-3">1. התאם במין ובמספר (נושא-נשוא ושם-תוארו)</h3>
+                        <ul class="list-disc list-inside space-y-3 text-gray-700">
+                            <li><strong>הכלל:</strong> התואר תמיד מתאים לשם העצם, והפועל (הנשוא) תמיד מתאים לנושא.</li>
+                            <li>
+                                <strong>טיפ הזהב - זהירות מסיומות מטעות!</strong> לפעמים שם העצם מסתיים ב-"וֹת" אבל הוא בעצם זכר, או מסתיים ב-"ִים" אבל הוא נקבה. התואר תמיד ילך לפי המין האמיתי של המילה (היחיד שלה).
+                                <div class="mt-3 bg-teal-50 p-4 rounded-lg border-r-4 border-teal-400">
+                                    <p class="mb-2"><em>דוגמה קלאסית מהבחינה שצילמת:</em> שבוע (זכר) -&gt; ברבים: שבועות (זכר). לכן נגיד <strong>שבועות ארוכים</strong> (ולא ארוכות!).</p>
+                                    <p><em>עוד דוגמאות לשינון:</em> חלונות גדולים (חלון), לילות קרים (לילה), נשים יפות (אישה), אבנים כבדות (אבן).</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-teal-100">
+                        <h3 class="text-xl font-bold text-teal-700 mb-3">2. שימוש תקין בצירופי סמיכות</h3>
+                        <ul class="list-disc list-inside space-y-3 text-gray-700">
+                            <li><strong>הכלל למציאת "ה" הידיעה בסמיכות:</strong> בצירוף סמיכות (שתי מילים שקשורות זו לזו, כמו "בית ספר", "פעילות ערב"), ה"א הידיעה תבוא <strong>תמיד ורק על המילה השנייה</strong> (הסומך).</li>
+                            <li>
+                                <strong>טיפ מנצח:</strong> אסור להפריד סמיכות!
+                                <div class="mt-3 bg-gray-50 p-4 rounded-lg">
+                                    <p class="mb-2"><em>דוגמה מהבחינה שצילמת:</em> "דחו את פעילות הערב / הפעילות ערב". התשובה הנכונה היא <strong>פעילות הערב</strong>.</p>
+                                    <p><em>עוד דוגמאות:</em> מנהל הבית (ולא המנהל בית), שר החינוך (ולא השר חינוך).</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-teal-100">
+                        <h3 class="text-xl font-bold text-teal-700 mb-3">3. שימוש תקין במילות קישור</h3>
+                        <p class="text-gray-700 mb-3">בבחינה תקבלו רשימה של מילות קישור, ותצטרכו לשבץ אותן בטקסט קצר לפי ההקשר הלוגי.</p>
+                        <ul class="list-disc list-inside space-y-3 text-gray-700">
+                            <li>
+                                <div class="bg-amber-50 p-3 inline-block rounded border border-amber-200 text-amber-900 mb-2">
+                                    <strong>טיפ מנצח:</strong> קראו את המשפט עד הסוף לפני שאתם בוחרים מילה. תרגמו לעצמכם את כוונת המשפט: האם יש כאן הפתעה/ניגוד? סיבה? זמן? מילת הקישור חייבת להתאים למשמעות.
+                                </div>
+                            </li>
+                            <li>
+                                <strong>מילות הקישור הנפוצות בבחינה ופירושן:</strong>
+                                <ul class="list-disc list-inside ml-6 mt-2 space-y-2">
+                                    <li><strong>הוספה:</strong> ו..., גם, בנוסף לכך.</li>
+                                    <li><strong>ניגוד וויתור (הפתעה, משהו מנוגד למצופה):</strong> אבל, אך, אולם, למרות (ש...), בכל זאת.</li>
+                                    <li><strong>זמן:</strong> כאשר, כש..., לפני, אחרי, לאחר מכן.</li>
+                                    <li><strong>סיבה ותוצאה:</strong> כי, מפני ש..., לכן, כתוצאה מכך.</li>
+                                    <li><strong>תכלית (מטרה):</strong> כדי (ש...), למען, במטרה ל...</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 7: Exercises -->
+            <div class="page-content animate-fadeIn pb-8 relative" id="page-7">
+                <div id="exercise-container">
+                    <div class="mb-6 border-b pb-4">
+                        <h2 class="text-2xl font-bold text-purple-800 flex items-center gap-2">
+                            <span class="text-3xl">📝</span> תרגול דמוי בחינה וכלים להערכה
+                        </h2>
+                    </div>
+
+                    <div class="bg-yellow-100 text-yellow-800 px-4 py-2 rounded-lg font-bold inline-block mb-4">
+                        דמוי מבחן מס' 1 (פרק הלשון - 15 נקודות)
+                    </div>
+
+                    <!-- Question 1 -->
+                    <div class="bg-white p-6 rounded-xl shadow border border-purple-200">
+                        <h3 class="text-xl font-bold text-purple-700 mb-4 border-b pb-2">שאלה 1: הפועל ושם העצם (6 נקודות)</h3>
+                        
+                        <div class="mb-6">
+                            <p class="font-bold text-gray-800 mb-3">א. לפניכם משפט ובו פועל מודגש: "החברה הממשלתית <strong class="text-purple-600 text-lg">תִּבְנֶה</strong> שכונות חדשות לזוגות צעירים".</p>
+                            <ol class="list-decimal list-inside space-y-4 text-gray-700 mr-4">
+                                <li class="flex items-center gap-2 flex-wrap">
+                                    מהו השורש של הפועל המודגש? 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-gray-50 focus:outline-none focus:border-purple-500 px-2 py-1 w-24 text-center">
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded">תשובה: ב-נ-ה/י</span>
+                                </li>
+                                <li class="flex items-center gap-2 flex-wrap">
+                                    מהו הבניין של הפועל המודגש? 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-gray-50 focus:outline-none focus:border-purple-500 px-2 py-1 w-24 text-center">
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded">תשובה: קל</span>
+                                </li>
+                                <li>
+                                    <span class="block mt-1">העתיקו את המשפט, והמרו את הפועל המודגש לזמן <strong>עבר</strong>:</span>
+                                    <div class="mt-2 p-3 bg-gray-50 rounded border border-dashed border-gray-300 flex flex-wrap items-center gap-2">
+                                        החברה הממשלתית 
+                                        <input type="text" class="border-b-2 border-gray-400 bg-white focus:outline-none focus:border-purple-500 px-2 py-1 w-32 text-center mx-2">
+                                        שכונות חדשות לזוגות צעירים.
+                                    </div>
+                                    <div class="answer mt-2 text-green-600 font-bold bg-green-50 p-2 rounded">תשובה: בָּנְתָה</div>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-gray-800 mb-3">ב. לפניכם שלושה משפטים, ובכל אחד מהם יש שם מודגש. ענו על סעיפים (1)-(3):</p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700 mr-4 mb-4 bg-purple-50 p-4 rounded">
+                                <li>הַ<strong>מַּנְהִיג</strong> הצעיר הוביל את הקבוצה להצלחה.</li>
+                                <li>הוא נוהג במכונית בצורה <strong>נְהִיגָה</strong> זהירה.</li>
+                                <li>זמן הַ<strong>תְּגוּבָה</strong> שלו היה מהיר במיוחד.</li>
+                            </ul>
+                            <div class="space-y-4 text-gray-700 mr-4">
+                                <div>
+                                    <p class="mb-2">(1) הקיפו את שם העצם יוצא הדופן מבחינת השורש.</p>
+                                    <div class="flex gap-4">
+                                        <label class="flex items-center gap-1 cursor-pointer"><input type="radio" name="q1_b1"> מנהיג</label>
+                                        <label class="flex items-center gap-1 cursor-pointer"><input type="radio" name="q1_b1"> נהיגה</label>
+                                        <label class="flex items-center gap-1 cursor-pointer"><input type="radio" name="q1_b1"> תגובה</label>
+                                    </div>
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded mt-2">תשובה: תגובה</span>
+                                </div>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    (2) השורש של שם העצם יוצא הדופן הוא: 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-gray-50 focus:outline-none focus:border-purple-500 px-2 py-1 w-24 text-center">
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded">תשובה: י-ג-ב / ג-ו-ב</span>
+                                </div>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    (3) השורש המשותף לשני שמות העצם האחרים הוא: 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-gray-50 focus:outline-none focus:border-purple-500 px-2 py-1 w-24 text-center">
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded">תשובה: נ-ה-ג</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="my-6 border-purple-100">
+
+                        <div>
+                            <p class="font-bold text-gray-800 mb-3">ג. לפניכם שלושה משפטים, ובכל אחד מהם יש שם מודגש. (שימו לב לשיכול / החלפת מיקום האותיות בשורש!)</p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700 mr-4 mb-4 bg-purple-50 p-4 rounded">
+                                <li>נערך <strong>מֶחְקָר</strong> מקיף בנושא איכות הסביבה.</li>
+                                <li>יש לשמור על <strong>מֶרְחָק</strong> בטיחות בנהיגה.</li>
+                                <li>הוחלט על <strong>הַרְחָקָה</strong> של השחקן מהמגרש.</li>
+                            </ul>
+                            <div class="space-y-4 text-gray-700 mr-4">
+                                <div>
+                                    <p class="mb-2">(1) הקיפו את שם העצם יוצא הדופן מבחינת השורש.</p>
+                                    <div class="flex gap-4">
+                                        <label class="flex items-center gap-1 cursor-pointer"><input type="radio" name="q1_g1"> מחקר</label>
+                                        <label class="flex items-center gap-1 cursor-pointer"><input type="radio" name="q1_g1"> מרחק</label>
+                                        <label class="flex items-center gap-1 cursor-pointer"><input type="radio" name="q1_g1"> הרחקה</label>
+                                    </div>
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded mt-2">תשובה: מחקר</span>
+                                </div>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    (2) השורש של שם העצם יוצא הדופן הוא: 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-gray-50 focus:outline-none focus:border-purple-500 px-2 py-1 w-24 text-center">
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded">תשובה: ח-ק-ר</span>
+                                </div>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    (3) השורש המשותף לשני שמות העצם האחרים הוא: 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-gray-50 focus:outline-none focus:border-purple-500 px-2 py-1 w-24 text-center">
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded">תשובה: ר-ח-ק</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="my-6 border-purple-100">
+
+                        <div>
+                            <p class="font-bold text-gray-800 mb-3">ד. לפניכם קבוצה נוספת של משפטים. ענו על סעיפים (1)-(3):</p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700 mr-4 mb-4 bg-purple-50 p-4 rounded">
+                                <li>השמש שוקעת ב<strong>מַעֲרָב</strong>.</li>
+                                <li>ה<strong>מַעֲבָר</strong> לדירה החדשה היה מרגש.</li>
+                                <li>המורה ביקשה למנוע <strong>הִתְעָרְבוּת</strong> מיותרת.</li>
+                            </ul>
+                            <div class="space-y-4 text-gray-700 mr-4">
+                                <div>
+                                    <p class="mb-2">(1) הקיפו את שם העצם יוצא הדופן מבחינת השורש.</p>
+                                    <div class="flex gap-4">
+                                        <label class="flex items-center gap-1 cursor-pointer"><input type="radio" name="q1_d1"> מערב</label>
+                                        <label class="flex items-center gap-1 cursor-pointer"><input type="radio" name="q1_d1"> מעבר</label>
+                                        <label class="flex items-center gap-1 cursor-pointer"><input type="radio" name="q1_d1"> התערבות</label>
+                                    </div>
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded mt-2">תשובה: מעבר</span>
+                                </div>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    (2) השורש של שם העצם יוצא הדופן הוא: 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-gray-50 focus:outline-none focus:border-purple-500 px-2 py-1 w-24 text-center">
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded">תשובה: ע-ב-ר</span>
+                                </div>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    (3) השורש המשותף לשני שמות העצם האחרים הוא: 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-gray-50 focus:outline-none focus:border-purple-500 px-2 py-1 w-24 text-center">
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded">תשובה: ע-ר-ב</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Question 2 -->
+                    <div class="bg-white p-6 rounded-xl shadow border border-purple-200 mt-6">
+                        <h3 class="text-xl font-bold text-purple-700 mb-4 border-b pb-2">שאלה 2: תחביר, תקינות לשון ומילות יחס (9 נקודות)</h3>
+                        
+                        <div class="mb-6">
+                            <p class="font-bold text-gray-800 mb-3">א. לפניכם שלושה משפטים. כתבו ליד כל משפט את סוגו התחבירי: פשוט, מורכב, מחובר. (3 נק')</p>
+                            <ol class="list-decimal list-inside space-y-4 text-gray-700 mr-4">
+                                <li class="flex flex-col sm:flex-row sm:justify-between gap-2 items-start sm:items-center">
+                                    <span>הממשלה השקיעה כספים רבים בפריפריה, אך התוצאות טרם נראות בשטח.</span>
+                                    <div class="flex gap-2 items-center">
+                                        <select class="border border-gray-300 rounded p-1 bg-gray-50 outline-none focus:border-purple-500">
+                                            <option value=""></option><option value="פשוט">פשוט</option><option value="מורכב">מורכב</option><option value="מחובר">מחובר</option>
+                                        </select>
+                                        <span class="answer text-green-600 font-bold text-sm bg-green-50 px-2 py-1 rounded">מחובר</span>
+                                    </div>
+                                </li>
+                                <li class="flex flex-col sm:flex-row sm:justify-between gap-2 items-start sm:items-center">
+                                    <span>רוב בני הנוער, אשר משתמשים ברשתות החברתיות, מודעים לסכנות ברשת.</span>
+                                    <div class="flex gap-2 items-center">
+                                        <select class="border border-gray-300 rounded p-1 bg-gray-50 outline-none focus:border-purple-500">
+                                            <option value=""></option><option value="פשוט">פשוט</option><option value="מורכב">מורכב</option><option value="מחובר">מחובר</option>
+                                        </select>
+                                        <span class="answer text-green-600 font-bold text-sm bg-green-50 px-2 py-1 rounded">מורכב</span>
+                                    </div>
+                                </li>
+                                <li class="flex flex-col sm:flex-row sm:justify-between gap-2 items-start sm:items-center">
+                                    <span>בשנים האחרונות גברה המודעות לאיכות הסביבה במדינת ישראל.</span>
+                                    <div class="flex gap-2 items-center">
+                                        <select class="border border-gray-300 rounded p-1 bg-gray-50 outline-none focus:border-purple-500">
+                                            <option value=""></option><option value="פשוט">פשוט</option><option value="מורכב">מורכב</option><option value="מחובר">מחובר</option>
+                                        </select>
+                                        <span class="answer text-green-600 font-bold text-sm bg-green-50 px-2 py-1 rounded">פשוט</span>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="mb-6">
+                            <p class="font-bold text-gray-800 mb-3">ב. במשפטים שבסעיף א' מסומנות שלוש מילים בקו תחתון. ציינו את <strong>התפקיד התחבירי</strong> של כל אחת מהן. בחרו מן הרשימה: <strong>נושא, נשוא, לוואי, תיאור, אוגד.</strong> (3 נק')</p>
+                            
+                            <div class="p-4 bg-purple-50 rounded-lg space-y-3">
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    <span class="underline font-medium">השקיעה</span> (במשפט 1): 
+                                    <select class="border border-gray-300 rounded p-1 bg-white outline-none focus:border-purple-500">
+                                        <option value=""></option><option value="נושא">נושא</option><option value="נשוא">נשוא</option><option value="לוואי">לוואי</option><option value="תיאור">תיאור</option><option value="אוגד">אוגד</option>
+                                    </select>
+                                    <span class="answer text-green-600 font-bold text-sm bg-green-100 px-2 py-1 rounded">נשוא</span>
+                                </div>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    <span class="underline font-medium">בני הנוער</span> (במשפט 2): 
+                                    <select class="border border-gray-300 rounded p-1 bg-white outline-none focus:border-purple-500">
+                                        <option value=""></option><option value="נושא">נושא</option><option value="נשוא">נשוא</option><option value="לוואי">לוואי</option><option value="תיאור">תיאור</option><option value="אוגד">אוגד</option>
+                                    </select>
+                                    <span class="answer text-green-600 font-bold text-sm bg-green-100 px-2 py-1 rounded">נושא</span>
+                                </div>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    <span class="underline font-medium">בשנים האחרונות</span> (במשפט 3): 
+                                    <select class="border border-gray-300 rounded p-1 bg-white outline-none focus:border-purple-500">
+                                        <option value=""></option><option value="נושא">נושא</option><option value="נשוא">נשוא</option><option value="לוואי">לוואי</option><option value="תיאור">תיאור</option><option value="אוגד">אוגד</option>
+                                    </select>
+                                    <span class="answer text-green-600 font-bold text-sm bg-green-100 px-2 py-1 rounded">תיאור</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-6">
+                            <p class="font-bold text-gray-800 mb-3">ג. לפניכם משפט פעיל. המרו אותו למשפט סביל. (1.5 נק')</p>
+                            <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                                <p class="text-gray-700 mb-2"><em>משפט פעיל:</em> צוות המהנדסים תכנן את הגשר החדש מעל הנהר.</p>
+                                <div class="text-gray-700 flex flex-col sm:flex-row items-center gap-2 mt-3">
+                                    <em>משפט סביל:</em> הגשר החדש 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-white focus:outline-none focus:border-purple-500 px-2 py-1 flex-grow min-w-[200px] text-center mx-2">
+                                </div>
+                                <div class="answer mt-3 text-green-600 font-bold bg-green-50 p-2 rounded">תשובה: תֻּכְנַן (על ידי צוות המהנדסים)</div>
+                            </div>
+                        </div>
+                        
+                        <hr class="my-6 border-purple-100">
+
+                        <h3 class="text-lg font-bold text-purple-700 mb-4">הצעת תרגול נוספת (על בסיס המיקוד שהוספת)</h3>
+
+                        <div class="mb-6">
+                            <p class="font-bold text-gray-800 mb-3">ד. מילות יחס (3 נקודות)</p>
+                            <p class="text-gray-600 text-sm mb-3">לפניכם שני משפטים, ובכל אחד מהם חסרה מילת יחס. השלימו את מילת היחס החסרה (היעזרו בפועל המופיע לפני הקו).</p>
+                            <ol class="list-decimal list-inside space-y-4 text-gray-700 mr-4">
+                                <li class="flex items-center flex-wrap gap-2">
+                                    המורה ביקשה מהתלמידים לא לפגוע <input type="text" class="border-b-2 border-gray-400 bg-gray-50 w-16 text-center"> רגשותיהם של חבריהם לכיתה.
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 rounded ml-2">ב-</span>
+                                </li>
+                                <li class="flex items-center flex-wrap gap-2">
+                                    העירייה תדאג <input type="text" class="border-b-2 border-gray-400 bg-gray-50 w-16 text-center"> נטיעת עצים חדשים בשכונה.
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 rounded ml-2">ל-</span>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="mb-6">
+                            <p class="font-bold text-gray-800 mb-3">ה. מילות קישור (2 נקודות)</p>
+                            <p class="text-gray-600 text-sm mb-3">השלימו את מילות הקישור החסרות מן הרשימה (ניתן להשתמש במילה פעם אחת בלבד. שתי מילים מיותרות):<br>
+                            <em>(למרות ש..., לכן, כדי, מפני ש..., בנוסף לכך)</em></p>
+                            <div class="bg-gray-50 p-4 rounded-lg border border-gray-200 leading-loose">
+                                התלמידים רצו להצליח בבחינה בפיזיקה, 
+                                <select class="mx-2 border border-gray-300 rounded p-1 bg-white">
+                                    <option value=""></option><option value="1">למרות ש...</option><option value="2">לכן</option><option value="3">כדי</option><option value="4">מפני ש...</option><option value="5">בנוסף לכך</option>
+                                </select>
+                                <span class="answer text-green-600 font-bold ml-2">(לכן)</span>
+                                הם למדו שעות ארוכות בספרייה. 
+                                <select class="mx-2 border border-gray-300 rounded p-1 bg-white">
+                                    <option value=""></option><option value="1">למרות ש...</option><option value="2">לכן</option><option value="3">כדי</option><option value="4">מפני ש...</option><option value="5">בנוסף לכך</option>
+                                </select>
+                                <span class="answer text-green-600 font-bold ml-2">(למרות ש...)</span>
+                                המבחן היה קשה במיוחד, כולם קיבלו ציונים גבוהים.
+                            </div>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-gray-800 mb-3">ו. תקינות לשון (2 נקודות)</p>
+                            <p class="text-gray-600 text-sm mb-3">בכל משפט מוצגות שתי אפשרויות. הקיפו (בחרו) את האפשרות <strong>הנכונה</strong>.</p>
+                            <ol class="list-decimal list-inside space-y-4 text-gray-700 mr-4">
+                                <li>
+                                    קניתי בחנות שני 
+                                    <select class="mx-2 border border-gray-300 rounded p-1 bg-white">
+                                        <option value="">בחר...</option><option value="1">שולחנות עגולים</option><option value="2">שולחנות עגולות</option>
+                                    </select>
+                                    לפינת האוכל.
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 rounded mt-1 sm:mt-0">תשובה: שולחנות עגולים</span>
+                                </li>
+                                <li>
+                                    השר ביקר ב
+                                    <select class="mx-2 border border-gray-300 rounded p-1 bg-white">
+                                        <option value="">בחר...</option><option value="1">בית הספר</option><option value="2">הבית ספר</option>
+                                    </select>
+                                    המקומי כדי להתרשם מתוכניות הלימוד.
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 rounded mt-1 sm:mt-0">תשובה: בית הספר</span>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- Visual Separator -->
+                    <hr class="my-10 border-t-4 border-purple-200 border-dashed">
+
+                    <!-- MOCK EXAM 2 -->
+                    <div class="bg-blue-100 text-blue-800 px-4 py-2 rounded-lg font-bold inline-block mb-4">
+                        דמוי מבחן מס' 2 - בחינה מסכמת מלאה (מבנה 014271)
+                    </div>
+                    <p class="text-gray-700 font-medium mb-6">זכרו: בבחינה האמיתית תצטרכו לבחור שאלה אחת בלבד (10 או 11). כאן מומלץ לתרגל את שתיהן!</p>
+
+                    <!-- Question 10 (Mock 2) -->
+                    <div class="bg-white p-6 rounded-xl shadow border border-blue-200 mb-8">
+                        <h3 class="text-xl font-bold text-blue-700 mb-4 border-b pb-2">שאלה 10: הפועל, שם העצם ומילות יחס</h3>
+                        
+                        <div class="mb-6">
+                            <p class="font-bold text-gray-800 mb-3">א. לפניכם משפט ובו פועל מודגש: "החוקרים <strong class="text-blue-600 text-lg">הִגִּיעוּ</strong> למסקנה חשובה בנושא הבינה המלאכותית."</p>
+                            <ol class="list-decimal list-inside space-y-4 text-gray-700 mr-4">
+                                <li class="flex items-center gap-2 flex-wrap">
+                                    מהו השורש של הפועל המודגש? 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-gray-50 focus:outline-none focus:border-blue-500 px-2 py-1 w-24 text-center">
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded">תשובה: נ-ג-ע / י-ג-ע</span>
+                                </li>
+                                <li class="flex items-center gap-2 flex-wrap">
+                                    מהו הבניין של הפועל המודגש? 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-gray-50 focus:outline-none focus:border-blue-500 px-2 py-1 w-24 text-center">
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded">תשובה: הפעיל</span>
+                                </li>
+                                <li>
+                                    <span class="block mt-1">העתיקו את המשפט, והמרו את הפועל המודגש לזמן <strong>הווה (בינוני)</strong>:</span>
+                                    <div class="mt-2 p-3 bg-gray-50 rounded border border-dashed border-gray-300 flex flex-wrap items-center gap-2">
+                                        החוקרים 
+                                        <input type="text" class="border-b-2 border-gray-400 bg-white focus:outline-none focus:border-blue-500 px-2 py-1 w-32 text-center mx-2">
+                                        למסקנה חשובה...
+                                    </div>
+                                    <div class="answer mt-2 text-green-600 font-bold bg-green-50 p-2 rounded">תשובה: מַגִּיעִים</div>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="mb-6">
+                            <p class="font-bold text-gray-800 mb-3">ב. לפניכם שלושה משפטים, ובכל אחד מהם יש שם מודגש. שימו לב לשיכול אותיות!</p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700 mr-4 mb-4 bg-blue-50 p-4 rounded">
+                                <li>החקלאי עיבד את ה<strong>חֶלְקָה</strong> שלו במסירות.</li>
+                                <li>תחום ה<strong>חַקְלָאוּת</strong> מתפתח במהירות בישראל.</li>
+                                <li>כל תלמיד קיבל <strong>חֵלֶק</strong> שווה בעבודה.</li>
+                            </ul>
+                            <div class="space-y-4 text-gray-700 mr-4">
+                                <div>
+                                    <p class="mb-2">(1) הקיפו את שם העצם יוצא הדופן מבחינת השורש.</p>
+                                    <div class="flex gap-4">
+                                        <label class="flex items-center gap-1 cursor-pointer"><input type="radio" name="q10_b1"> חלקה</label>
+                                        <label class="flex items-center gap-1 cursor-pointer"><input type="radio" name="q10_b1"> חקלאות</label>
+                                        <label class="flex items-center gap-1 cursor-pointer"><input type="radio" name="q10_b1"> חלק</label>
+                                    </div>
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded mt-2">תשובה: חקלאות</span>
+                                </div>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    (2) השורש של שם העצם יוצא הדופן הוא: 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-gray-50 focus:outline-none focus:border-blue-500 px-2 py-1 w-24 text-center">
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded">תשובה: ח-ק-ל</span>
+                                </div>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    (3) השורש המשותף לשני שמות העצם האחרים הוא: 
+                                    <input type="text" class="border-b-2 border-gray-400 bg-gray-50 focus:outline-none focus:border-blue-500 px-2 py-1 w-24 text-center">
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 py-1 rounded">תשובה: ח-ל-ק</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-gray-800 mb-3">ג. מילות יחס מוצרכות</p>
+                            <p class="text-gray-600 text-sm mb-3">השלימו את מילות היחס החסרות (היעזרו בפועל המופיע לפני הקו).</p>
+                            <ol class="list-decimal list-inside space-y-4 text-gray-700 mr-4">
+                                <li class="flex items-center flex-wrap gap-2">
+                                    יש להימנע <input type="text" class="border-b-2 border-gray-400 bg-gray-50 w-16 text-center"> שימוש מופרז במסכים.
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 rounded ml-2">מ-</span>
+                                </li>
+                                <li class="flex items-center flex-wrap gap-2">
+                                    ההורים שואפים להשפיע <input type="text" class="border-b-2 border-gray-400 bg-gray-50 w-16 text-center"> הרגלי הלמידה של ילדיהם.
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 rounded ml-2">על</span>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- Question 11 (Mock 2) -->
+                    <div class="bg-white p-6 rounded-xl shadow border border-teal-200">
+                        <h3 class="text-xl font-bold text-teal-700 mb-4 border-b pb-2">שאלה 11: תחביר, מערכת הצורות ותקינות לשון</h3>
+                        
+                        <div class="mb-6">
+                            <p class="font-bold text-gray-800 mb-3">א. קשרים לוגיים ומילות קישור</p>
+                            <p class="text-gray-600 text-sm mb-3">לפניכם שני משפטים. קראו אותם, וציינו את <strong>סוג הקשר הלוגי</strong> מתוך הרשימה הבאה: סיבה ותוצאה, תכלית, הוספה, תנאי, זמן.</p>
+                            <div class="space-y-4 mt-4">
+                                <div class="bg-teal-50 p-4 rounded-lg border border-teal-100">
+                                    <p class="font-medium text-gray-800 mb-2">I. טכנולוגיית הבינה המלאכותית תשנה את עתיד הדורות הבאים, <u>לכן</u> אנחנו מחויבים להכין את ילדינו לשינוי הזה.</p>
+                                    <div class="flex items-center gap-2 flex-wrap">
+                                        סוג הקשר הלוגי:
+                                        <select class="border border-gray-300 rounded p-1 bg-white outline-none focus:border-teal-500">
+                                            <option value=""></option><option value="1">סיבה ותוצאה</option><option value="2">תכלית</option><option value="3">הוספה</option><option value="4">תנאי</option><option value="5">זמן</option>
+                                        </select>
+                                        <span class="answer text-green-600 font-bold text-sm bg-green-100 px-2 py-1 rounded">סיבה ותוצאה</span>
+                                    </div>
+                                </div>
+                                <div class="bg-teal-50 p-4 rounded-lg border border-teal-100">
+                                    <p class="font-medium text-gray-800 mb-2">II. טכנולוגיית הבינה המלאכותית הומצאה <u>כדי</u> לעזור לנו בחיי היום-יום.</p>
+                                    <div class="flex items-center gap-2 flex-wrap">
+                                        סוג הקשר הלוגי:
+                                        <select class="border border-gray-300 rounded p-1 bg-white outline-none focus:border-teal-500">
+                                            <option value=""></option><option value="1">סיבה ותוצאה</option><option value="2">תכלית</option><option value="3">הוספה</option><option value="4">תנאי</option><option value="5">זמן</option>
+                                        </select>
+                                        <span class="answer text-green-600 font-bold text-sm bg-green-100 px-2 py-1 rounded">תכלית</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-6">
+                            <p class="font-bold text-gray-800 mb-3">ב. תפקידים תחביריים</p>
+                            <p class="text-gray-600 text-sm mb-3">לפניכם המשפט: "בזכות הטכנולוגיה אנשים חיים זמן רב יותר."</p>
+                            <p class="text-gray-600 text-sm mb-3">ציינו את התפקיד התחבירי של המילים המסומנות בקו מתוך הרשימה: <strong>נושא, נשוא, לוואי, תיאור.</strong></p>
+                            <ul class="list-disc list-inside space-y-3 text-gray-700 mr-4">
+                                <li class="flex items-center gap-2 flex-wrap">
+                                    <span class="underline font-medium">אנשים</span>:
+                                    <select class="border border-gray-300 rounded p-1 bg-white outline-none focus:border-teal-500">
+                                        <option value=""></option><option value="נושא">נושא</option><option value="נשוא">נשוא</option><option value="לוואי">לוואי</option><option value="תיאור">תיאור</option>
+                                    </select>
+                                    <span class="answer text-green-600 font-bold text-sm bg-green-100 px-2 py-1 rounded">נושא</span>
+                                </li>
+                                <li class="flex items-center gap-2 flex-wrap">
+                                    <span class="underline font-medium">חיים</span>:
+                                    <select class="border border-gray-300 rounded p-1 bg-white outline-none focus:border-teal-500">
+                                        <option value=""></option><option value="נושא">נושא</option><option value="נשוא">נשוא</option><option value="לוואי">לוואי</option><option value="תיאור">תיאור</option>
+                                    </select>
+                                    <span class="answer text-green-600 font-bold text-sm bg-green-100 px-2 py-1 rounded">נשוא</span>
+                                </li>
+                                <li class="flex items-center gap-2 flex-wrap">
+                                    <span class="underline font-medium">בזכות הטכנולוגיה</span>:
+                                    <select class="border border-gray-300 rounded p-1 bg-white outline-none focus:border-teal-500">
+                                        <option value=""></option><option value="נושא">נושא</option><option value="נשוא">נשוא</option><option value="לוואי">לוואי</option><option value="תיאור">תיאור</option>
+                                    </select>
+                                    <span class="answer text-green-600 font-bold text-sm bg-green-100 px-2 py-1 rounded">תיאור (סיבה)</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p class="font-bold text-gray-800 mb-3">ג. תקינות לשון</p>
+                            <p class="text-gray-600 text-sm mb-3">בכל משפט מוצגות שתי אפשרויות. הקיפו (בחרו) את האפשרות <strong>הנכונה</strong>.</p>
+                            <ol class="list-decimal list-inside space-y-4 text-gray-700 mr-4">
+                                <li>
+                                    לאחרונה קניתי 
+                                    <select class="mx-2 border border-gray-300 rounded p-1 bg-white">
+                                        <option value="">בחר...</option><option value="1">שלוש מחברות</option><option value="2">שלושה מחברות</option>
+                                    </select>
+                                    חדשות לבית הספר.
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 rounded mt-1 sm:mt-0">תשובה: שלוש מחברות (נקבה)</span>
+                                </li>
+                                <li>
+                                    קיבלתי הזמנה 
+                                    <select class="mx-2 border border-gray-300 rounded p-1 bg-white">
+                                        <option value="">בחר...</option><option value="1">לפגישה עבודה</option><option value="2">לפגישת העבודה</option>
+                                    </select>
+                                    מנהל המפעל.
+                                    <span class="answer text-green-600 font-bold bg-green-50 px-2 rounded mt-1 sm:mt-0">תשובה: לפגישת העבודה</span>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- Move button to the end -->
+                    <div class="mt-10 flex justify-center border-t border-gray-200 pt-8 pb-4">
+                        <button id="toggle-answers-btn" class="px-8 py-3 rounded-full font-bold shadow-lg transition-all flex items-center gap-3 bg-green-500 text-white hover:bg-green-600 hover:shadow-xl hover:-translate-y-1">
+                            <i data-lucide="check-circle" class="w-6 h-6"></i>
+                            <span id="toggle-answers-text" class="text-lg">בדיקה עצמית לכל התרגילים</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bottom Navigation Buttons -->
+        <div class="mt-8 flex justify-between items-center max-w-4xl mx-auto px-2">
+            <button id="prev-btn" class="flex items-center gap-2 px-4 sm:px-6 py-3 rounded-lg font-bold transition-all duration-200 bg-white text-indigo-600 border border-indigo-200 hover:bg-indigo-50 shadow-sm disabled:opacity-50 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-500 disabled:border-transparent">
+                <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                <span class="hidden sm:inline">לעמוד הקודם</span>
+                <span class="sm:hidden">הקודם</span>
+            </button>
+
+            <button id="next-btn" class="flex items-center gap-2 px-4 sm:px-6 py-3 rounded-lg font-bold transition-all duration-200 bg-indigo-600 text-white hover:bg-indigo-700 shadow-md hover:shadow-lg hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-500 disabled:transform-none">
+                <span class="hidden sm:inline">לעמוד הבא</span>
+                <span class="sm:hidden">הבא</span>
+                <i data-lucide="arrow-left" class="w-5 h-5"></i>
+            </button>
+        </div>
+    </main>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Data structure for pages
+        const pages = [
+            { id: 'intro', title: 'הקדמה', icon: 'book-open', iconClass: 'text-indigo-500' },
+            { id: 'guidelines', title: 'הנחיות', icon: 'info', iconClass: 'text-red-500' },
+            { id: 'verbs', title: 'הפועל', icon: 'book', iconClass: 'text-blue-500' },
+            { id: 'nouns', title: 'שם העצם', icon: 'bookmark', iconClass: 'text-red-500' },
+            { id: 'prepositions', title: 'מילות יחס', icon: 'link-2', iconClass: 'text-orange-500' },
+            { id: 'syntax', title: 'תחביר', icon: 'book', iconClass: 'text-green-500' },
+            { id: 'correctness', title: 'תקינות ומילות קישור', icon: 'check-circle', iconClass: 'text-teal-500' },
+            { id: 'exercises', title: 'תרגילים לבדיקה', icon: 'check-square', iconClass: 'text-purple-500' }
+        ];
+
+        let currentPage = 0;
+        let showAnswers = false;
+
+        // Elements
+        const desktopNav = document.getElementById('desktop-nav');
+        const mobileNav = document.getElementById('mobile-nav');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const pageContents = document.querySelectorAll('.page-content');
+        const toggleAnswersBtn = document.getElementById('toggle-answers-btn');
+        const toggleAnswersText = document.getElementById('toggle-answers-text');
+        const exerciseContainer = document.getElementById('exercise-container');
+
+        // Build Navigation
+        function renderNav() {
+            desktopNav.innerHTML = '';
+            mobileNav.innerHTML = '';
+
+            pages.forEach((page, index) => {
+                // Desktop button
+                const dBtn = document.createElement('button');
+                dBtn.className = `px-3 xl:px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 flex items-center gap-2 ${currentPage === index ? 'bg-white text-indigo-700 shadow-sm' : 'text-indigo-100 hover:bg-indigo-500 hover:text-white'}`;
+                dBtn.onclick = () => goToPage(index);
+                dBtn.innerHTML = `<i data-lucide="${page.icon}" class="w-5 h-5 ${page.iconClass}"></i> ${page.title}`;
+                desktopNav.appendChild(dBtn);
+
+                // Mobile button
+                const mBtn = document.createElement('button');
+                mBtn.className = `whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex items-center gap-2 flex-shrink-0 ${currentPage === index ? 'bg-white text-indigo-700 shadow-sm' : 'text-indigo-100 hover:bg-indigo-500 hover:text-white bg-indigo-700/50'}`;
+                mBtn.onclick = () => goToPage(index);
+                mBtn.innerHTML = `<i data-lucide="${page.icon}" class="w-5 h-5 ${page.iconClass}"></i> ${page.title}`;
+                mobileNav.appendChild(mBtn);
+            });
+            
+            lucide.createIcons();
+        }
+
+        function updateContent() {
+            // Hide all pages
+            pageContents.forEach((el, index) => {
+                if(index === currentPage) {
+                    el.classList.add('active');
+                } else {
+                    el.classList.remove('active');
+                }
+            });
+
+            // Update buttons state
+            prevBtn.disabled = currentPage === 0;
+            nextBtn.disabled = currentPage === pages.length - 1;
+        }
+
+        function goToPage(index) {
+            currentPage = index;
+            renderNav();
+            updateContent();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Event Listeners for Next/Prev
+        prevBtn.addEventListener('click', () => {
+            if (currentPage > 0) goToPage(currentPage - 1);
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentPage < pages.length - 1) goToPage(currentPage + 1);
+        });
+
+        // Toggle Answers
+        toggleAnswersBtn.addEventListener('click', () => {
+            showAnswers = !showAnswers;
+            if (showAnswers) {
+                exerciseContainer.classList.add('answers-visible');
+                toggleAnswersBtn.className = 'px-8 py-3 rounded-full font-bold shadow-lg transition-all flex items-center gap-3 bg-red-100 text-red-700 hover:bg-red-200 hover:-translate-y-1';
+                toggleAnswersText.innerText = 'הסתר תשובות';
+            } else {
+                exerciseContainer.classList.remove('answers-visible');
+                toggleAnswersBtn.className = 'px-8 py-3 rounded-full font-bold shadow-lg transition-all flex items-center gap-3 bg-green-500 text-white hover:bg-green-600 hover:shadow-xl hover:-translate-y-1';
+                toggleAnswersText.innerText = 'בדיקה עצמית לכל התרגילים';
+            }
+        });
+
+        // Initial render
+        renderNav();
+        updateContent();
+    </script>
+</body>
+</html>
